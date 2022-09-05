@@ -67,8 +67,8 @@ if __name__ == "__main__":
 
     template = Template(
         # background=Image.open('bac/01.png'),  # 自定义背景图片
-        background=Image.new(mode="1", size=(2479, 3508),
-                             color=1),  # 这是 300ppi 的标准 A4
+        # 这是 300ppi 的标准 A4
+        background=Image.new(mode="1", size=(2479, 3508), color=1),
         font=ImageFont.truetype("font/"+f_type, size=hty_size),  # 手写字体选择
         line_spacing=hty_size+15,
         fill=0,  # 字体颜色
