@@ -2,7 +2,7 @@
 
 ### 1.1. 使用自定义图片
 
-在 `bac` 目录下放入需要的图片，在 main.py 相关处改变代码块
+在 `bac` 目录下放入需要的图片，在 main.py 相关处改变代码块。
 
 ```python
 template = Template(
@@ -16,7 +16,7 @@ template = Template(
 
 文件内置了标准 A4 背景。
 
-首先在 `text` 文件夹放入你的 word 文件，在 `font` 文件夹放入需要的字体，并于`main.py` 相关处改变代码块
+首先在 `text` 文件夹放入你的 word 文件，在 `font` 文件夹放入需要的字体，并于`main.py` 相关处改变代码块。
 
 ```python
 if __name__ == "__main__":
@@ -30,11 +30,11 @@ if __name__ == "__main__":
 
 ## 2. help
 
-First determine if you are using a custom image
+First determine if you are using a custom image.
 
 ### 2.1. use custom image
 
-Put the required image in the `bac` directory and change the code block in main.py
+Put the required image in the `bac` directory and change the code block in main.py.
 
 ```python
 template = Template(
@@ -48,7 +48,7 @@ template = Template(
 
 The file has a standard A4 background built in.
 
-First put your word file in the `text` folder, put the desired font in the `font` folder, and change the code block where relevant in `main.py`
+First put your word file in the `text` folder, put the desired font in the `font` folder, and change the code block where relevant in `main.py`.
 
 ```python
 if __name__ == "__main__":
