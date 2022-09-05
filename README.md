@@ -1,3 +1,5 @@
+# 简体中文
+
 ## 1. 首先确定你是否使用自定义图片
 
 ### 1.1. 使用自定义图片
@@ -28,11 +30,13 @@ if __name__ == "__main__":
 
 然后启用 `main.py`，会在 `save` 文件夹生成输出好的图片，在根目录生成的 `result.pdf` 为上述图片的集合 pdf 文件。
 
-## 2. help
+# English
+
+## 1. help
 
 First determine if you are using a custom image.
 
-### 2.1. use custom image
+### 1.1. use custom image
 
 Put the required image in the `bac` directory and change the code block in main.py.
 
@@ -44,7 +48,7 @@ template = Template(
     .......
 ```
 
-### 2.2. do not use custom images
+### 1.2. do not use custom images
 
 The file has a standard A4 background built in.
 
